@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;500&family=Exo+2:wght@300;400;500;600;700&family=Lato:ital@0;1&family=Merriweather&family=Spline+Sans+Mono:wght@400;500;600;700&family=Spline+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    min-width: 320px;
+    background-color: rgb(74, 193, 226);
+    display: grid;
+    place-items: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    background: url('9bAkfd.jpg');
+
+
+
+}
+
+.heading {
+    text-align: center;
+}
+
+
+#tempCon {
+
+    background-color: hsl(0, 0%, 100%);
+    padding: 30px;
+    border-radius: 10px;
+    height: 300px;
+    justify-content: center;
+    transition: background-color 300ms;
+    opacity: 0.75;
+
+
+}
+
+.submit {
+    justify-content: center;
+    border: none;
+    outline: none;
+    padding-left: 100px;
+    padding-top: 20px;
+
+    font-weight: bold;
+    border-radius: 10px;
+
+
+
+}
+
+.result {
+    text-align: center;
+    margin: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-bottom: 200px !important;
+    font-weight: bold;
+    margin-top: 20px;
+}

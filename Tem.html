@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+
+    <link rel="stylesheet" href="temp.css">
+</head>
+
+<body>
+    <form id="tempCon" onsubmit="ConvertTemp(); return false">
+        <div class="heading">
+            <label>
+                <h3>Temperature Converter</h2>
+            </label>
+        </div>
+
+        <br>
+        <input type="number" name="tempCon" id="temCon">
+
+
+        <select name="tempdiff" id="tempdiff" autocomplete="on">
+            <option value="Celcius">&deg;Celcius</option>
+
+            <option value="Fahrenheit">&deg;Fahrenheit</option><br>
+        </select>
+        <br>
+        <div class="submit">
+            <br>
+            <button>Convert</button>
+        </div>
+
+        <br>
+        <br>
+        <div class="result">
+
+            <span id="Result">Result</span>
+        </div>
+
+    </form>
+
+    <script src="temp.js"></script>
+</body>
+
+</html>
